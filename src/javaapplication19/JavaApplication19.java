@@ -19,7 +19,8 @@ static void Menu(){
     System.out.println("2. Search for a word");
     System.out.println("3. Remove a word");
     System.out.println("4. Display all terms & definitions");
-    System.out.println("5. Exit");
+    System.out.println("5. Update");
+    System.out.println("6. Exit");
     System.out.print("Option: ");
     Option = s.nextInt();
     s.nextLine();
