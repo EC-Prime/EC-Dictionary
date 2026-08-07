@@ -1,0 +1,97 @@
+# 📖 EC Dictionary (Java Console Application)
+
+## Overview
+
+EC Dictionary is a simple Java console application that allows users to create and manage their own niche dictionary. Users can add custom terms with definitions, search for existing terms, update definitions, remove terms, and display all stored entries.
+
+The application stores data using Java's `HashMap`, making searches and updates fast and efficient.
+
+---
+
+## Features
+
+* ➕ Add new terms and definitions
+* 🔍 Search for a specific term
+* ✏️ Update an existing definition
+* ❌ Remove terms from the dictionary
+* 📚 Display all terms and definitions
+* 🚪 Exit the application safely
+
+---
+
+## Technologies Used
+
+* Java
+* HashMap (Java Collections Framework)
+* Scanner (User Input)
+* Console-based Interface
+
+---
+
+## How It Works
+
+When the program starts, a menu is displayed with the following options:
+
+1. Add a new term and definition
+2. Search for a word
+3. Remove a word
+4. Display all terms and definitions
+5. Update a definition
+6. Exit the application
+
+The user simply enters the corresponding menu number to perform an action.
+
+---
+
+## Example
+
+```text
+***********************************************
+ Welcome to EC Dictionary! My niche dictionary
+***********************************************
+
+1. Add new term and definition
+2. Search for a word
+3. Remove a word
+4. Display all terms & definitions
+5. Update a definition
+6. Exit
+
+Option: 2
+
+Search for a term: Hat-trick
+
+Hat-trick: When a single player scores three goals in one match.
+```
+
+---
+
+## Concepts Demonstrated
+
+This project demonstrates understanding of:
+
+* Methods
+* Loops
+* Conditional statements
+* HashMaps
+* User input handling
+* CRUD operations (Create, Read, Update, Delete)
+* Java Collections Framework
+
+---
+
+## Future Improvements
+
+Some ideas for expanding this project include:
+
+* Save dictionary entries to a file or database
+* Load saved terms when the application starts
+* Prevent duplicate terms more effectively
+* Sort dictionary entries alphabetically
+* Allow users to edit both the term and its definition
+* Add input validation and exception handling
+* Create a graphical user interface (GUI) using JavaFX or Swing
+
+---
+
+
