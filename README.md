@@ -88,8 +88,6 @@ This project demonstrates understanding of:
 
 Some ideas for expanding this project include:
 
- or database
-
 * Sort dictionary entries alphabetically
 * Allow users to edit both the term and its definition
 * Create a graphical user interface (GUI) using JavaFX or Swing
