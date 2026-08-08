@@ -17,7 +17,9 @@ The application stores data using Java's `HashMap`, making searches and updates 
 * 📚 Display all terms and definitions
 * 🚪 Exit the application safely
 * Load saved terms when the application starts
-* Prevent duplicate terms more effectively
+* ❌Prevents duplicate terms
+* ✏️Input validation and exception handling
+* 📚Saves dictionary entries to a file (dictionary.txt)
 
 ---
 
@@ -86,11 +88,10 @@ This project demonstrates understanding of:
 
 Some ideas for expanding this project include:
 
-* Save dictionary entries to a file or database
+ or database
 
 * Sort dictionary entries alphabetically
 * Allow users to edit both the term and its definition
-* Add input validation and exception handling
 * Create a graphical user interface (GUI) using JavaFX or Swing
 
 ---
