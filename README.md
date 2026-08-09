@@ -20,13 +20,14 @@ The application stores data using Java's `HashMap`, making searches and updates 
 * ❌Prevents duplicate terms
 * ✏️Input validation and exception handling
 * 📚Saves dictionary entries to a file (dictionary.txt)
+* Sorts dictionary entries alphabetically
 
 ---
 
 ## Technologies Used
 
 * Java
-* HashMap (Java Collections Framework)
+* ~~HashMap~~ TreeMap(Java Collections Framework)
 * Scanner (User Input)
 * Console-based Interface
 
@@ -77,7 +78,7 @@ This project demonstrates understanding of:
 * Methods
 * Loops
 * Conditional statements
-* HashMaps
+* HashMaps & TreeMaps
 * User input handling
 * CRUD operations (Create, Read, Update, Delete)
 * Java Collections Framework
@@ -88,7 +89,7 @@ This project demonstrates understanding of:
 
 Some ideas for expanding this project include:
 
-* Sort dictionary entries alphabetically
+
 * Allow users to edit both the term and its definition
 * Create a graphical user interface (GUI) using JavaFX or Swing
 
