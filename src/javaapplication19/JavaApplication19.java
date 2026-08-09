@@ -4,19 +4,20 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.HashMap;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class JavaApplication19 {
 
     static int option;
     static String term, def;
     static Scanner s = new Scanner(System.in);
-    static HashMap<String, String> terms = new HashMap<>();
+    static TreeMap<String, String> terms = new TreeMap<>();
 
     static void SeedData() {
         //sample data
+        
         terms.put("Offside", "A rule violation where an attacking player is closer to the opponent's goal line than both the ball and the second-to-last defender at the exact moment the ball is passed to them.");
         terms.put("Clean Sheet", "A term used when a goalkeeper and the defensive line prevent the opposing team from scoring a single goal during the entire match.");
         terms.put("Nutmeg", "A clever dribbling trick where a player kicks or rolls the ball directly through an opponent's legs.");
@@ -104,11 +105,14 @@ public class JavaApplication19 {
 
     static void loadFromFile() {
         try {
+            //Reads from the new file object
             File file = new File("dictionary.txt");
             Scanner fileScanner = new Scanner(file);
 
             while (fileScanner.hasNextLine()) {
                 String line = fileScanner.nextLine();
+                
+                //Splits string into Term & Definition, using ":" as a seperator
                 String[] parts = line.split(":", 2);
                 terms.put(parts[0], parts[1].trim());
 
@@ -138,7 +142,7 @@ public class JavaApplication19 {
         if (terms.containsKey(searchTerm)) {
             terms.remove(searchTerm);
 
-            System.out.println(searchTerm + "successfully removed!");
+            System.out.println(searchTerm + " successfully removed!");
             saveToFile();
         } else {
             System.out.println(searchTerm + " is not in the dictionary!");
