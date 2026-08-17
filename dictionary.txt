@@ -1,5 +1,0 @@
-Nutmeg:A clever dribbling trick where a player kicks or rolls the ball directly through an opponent's legs.
-Hat-trick:When a single player scores three goals in one match.
-Pitch:The traditional name for the playing field where the game is played.
-Offside:A rule violation where an attacking player is closer to the opponent's goal line than both the ball and the second-to-last defender at the exact moment the ball is passed to them.
-Clean Sheet:A term used when a goalkeeper and the defensive line prevent the opposing team from scoring a single goal during the entire match.

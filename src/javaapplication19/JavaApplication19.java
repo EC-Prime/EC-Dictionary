@@ -115,9 +115,11 @@ public class JavaApplication19 {
                 //Splits string into Term & Definition, using ":" as a seperator
                 String[] parts = line.split(":", 2);
                 terms.put(parts[0], parts[1].trim());
-
             }
             fileScanner.close();
+            if (terms.isEmpty()) {
+            SeedData();
+            }
         } catch (FileNotFoundException e) {
             System.out.println("No saved dictionary found - starting fresh.");
             SeedData();
@@ -178,8 +180,7 @@ public class JavaApplication19 {
     }
 
     public static void main(String[] args) { 
-        loadFromFile();
-        menu();
+         new DictionaryGUI().setVisible(true);
        
     }
 }
