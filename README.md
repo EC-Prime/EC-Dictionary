@@ -2,7 +2,7 @@
 
 ## Overview
 
-EC Dictionary is a simple Java console application that allows users to create and manage their own niche dictionary. Users can add custom terms with definitions, search for existing terms, update definitions, remove terms, and display all stored entries.
+EC Dictionary is a simple Java GUI application that allows users to create and manage their own niche dictionary. Users can add custom terms with definitions, search for existing terms, update definitions, remove terms, and display all stored entries.
 
 The application stores data using Java's `HashMap`, making searches and updates fast and efficient.
 
