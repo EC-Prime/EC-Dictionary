@@ -47,8 +47,11 @@ When the program starts, a menu is displayed with the following options:
 The user simply enters the corresponding menu number to perform an action.
 
 ---
-
-![Example](Screenshot2026-08-17180400.png)
+<!--
+<p align="center">
+  <img src = "Screenshot 2026-08-17 180400.png">
+</p>
+-->
 
 
 
