@@ -48,7 +48,7 @@ The user simply enters the corresponding menu number to perform an action.
 
 ---
 
-## Example
+![Example](Screenshot2026-08-17180400.png)
 
 
 
