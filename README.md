@@ -50,24 +50,8 @@ The user simply enters the corresponding menu number to perform an action.
 
 ## Example
 
-```text
-***********************************************
- Welcome to EC Dictionary! My niche dictionary
-***********************************************
 
-1. Add new term and definition
-2. Search for a word
-3. Remove a word
-4. Display all terms & definitions
-5. Update a definition
-6. Exit
 
-Option: 2
-
-Search for a term: Hat-trick
-
-Hat-trick: When a single player scores three goals in one match.
-```
 
 ---
 
