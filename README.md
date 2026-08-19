@@ -1,4 +1,4 @@
-# 📖 EC Dictionary (Java Console Application)
+# 📖 EC Dictionary (Java GUI Application)
 
 ## Overview
 
